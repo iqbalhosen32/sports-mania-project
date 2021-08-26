@@ -21,7 +21,7 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/team-detail">
+          <Route path="/team-detail/:idTeam">
             <TeamDetail></TeamDetail>
           </Route>
         </Switch>
